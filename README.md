@@ -4,17 +4,17 @@ This is my portfolio website, completely responsive on any device including desk
 Deployed Link: 
 It contains has 5 sections
 ## Home
-![Screenshot]('./src/assets/home.png') 
+![Screenshot](./src/assets/home.png) 
 ## About
-![Screenshot]('./src/assets/about.png')
+![Screenshot](./src/assets/about.png)
 ## Skills
-![Screenshot]('./src/assets/skills.png')
+![Screenshot](./src/assets/skills.png)
 This section displays my skills and the technologies I have worked with.
 ## Work
-![Screenshot]('./src/assets/work.png')
+![Screenshot](./src/assets/work.png)
 This section includes some of my recent projects with direct links to the the demo and the code.
 ## Contact
-![Screenshot]('./src/assets/contact.png')
+![Screenshot](./src/assets/contact.png)
 Using this section viewer can can contact me by filling and submitting the form.
 
 ## Technology and Tools Used
