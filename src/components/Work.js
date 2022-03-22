@@ -15,7 +15,7 @@ const Work = () => {
                 <p className='py-6'>// Check out some of my recent works</p>
             </div>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
-                <div style={{backgroundImage: `url(${NotesImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${NotesImg})`}} className='border-2 border-pink-600 hover:border-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-while tracking-wider'>Markdown Notes App</span>
                         <div className='pt-8 text-center'>
@@ -28,7 +28,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${Quizzical})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${Quizzical})`}} className='border-2 border-pink-600 hover:border-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-while tracking-wider'>Quizzical App</span>
                         <div className='pt-8 text-center'>
@@ -41,7 +41,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${Meme})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${Meme})`}} className='border-2 border-pink-600 hover:border-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-while tracking-wider'>Meme Generator</span>
                         <div className='pt-8 text-center'>
@@ -54,7 +54,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${Tenzies})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${Tenzies})`}} className='border-2 border-pink-600 hover:border-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-while tracking-wider'>Tenzies Game</span>
                         <div className='pt-8 text-center'>
@@ -67,7 +67,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${Calculator})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${Calculator})`}} className='border-2 border-pink-600 hover:border-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-while tracking-wider'>Calculator</span>
                         <div className='pt-8 text-center'>
@@ -80,7 +80,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${Etch})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${Etch})`}} className='border-2 border-pink-600 hover:border-gray-300 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-while tracking-wider'>Etch-a-Sketch</span>
                         <div className='pt-8 text-center'>
