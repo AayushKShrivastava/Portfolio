@@ -1,7 +1,9 @@
 # Portfolio
 
 This is my portfolio website, completely responsive on any device including desktops, mobiles, and tablets with various screen sizes. Using the header links on the navigation bar, viewers can easily jump between different sections on the page. My social handles are also available on the left side of the page.<br>
-Deployed Link: 
+<br>
+Deployed Link: https://aayushkshrivastava-portfolio.netlify.app/<br>
+<br>
 It contains has 5 sections
 ## Home
 ![Screenshot](./src/assets/home.png) 
