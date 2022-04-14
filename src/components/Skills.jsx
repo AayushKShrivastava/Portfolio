@@ -6,6 +6,7 @@ import Html from '../assets/html.png'
 import Css from '../assets/css.png'
 import Github from '../assets/github.png'
 import Tailwind from '../assets/tailwind.png'
+import Firebase from '../assets/firebase.png'
 
 const Skills = () => {
   return (
@@ -39,6 +40,10 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Github} alt='github' />
                     <p className='my-4'>GitHub</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Firebase} alt='firebase' />
+                    <p className='my-4'>Firebase</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Tailwind} alt='tailwind' />
