@@ -7,6 +7,9 @@ import Css from '../assets/css.png'
 import Github from '../assets/github.png'
 import Tailwind from '../assets/tailwind.png'
 import Firebase from '../assets/firebase.png'
+import RubyOnRails from '../assets/ruby-on-rails-icon.png'
+import Sql from '../assets/sql.png'
+import Nodejs from '../assets/nodejs.png'
 
 const Skills = () => {
   return (
@@ -18,12 +21,16 @@ const Skills = () => {
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 h-20 mx-auto' src={RubyOnRails} alt='ruby-on-rails' />
+                    <p className='my-4'>Ruby on Rails</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Html} alt='html' />
                     <p className='my-4'>HTML</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Css} alt='css' />
-                    <p className='my-4'>CSS</p>
+                    <img className='w-20 mx-auto' src={Sql} alt='sql' />
+                    <p className='my-4'>SQL</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={JavaScript} alt='javascript' />
@@ -42,12 +49,8 @@ const Skills = () => {
                     <p className='my-4'>GitHub</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Firebase} alt='firebase' />
-                    <p className='my-4'>Firebase</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Tailwind} alt='tailwind' />
-                    <p className='my-4'>Tailwind</p>
+                    <img className='w-20 mx-auto' src={Nodejs} alt='nodejs' />
+                    <p className='my-4'>Nodejs</p>
                 </div>
             </div>
         </div>

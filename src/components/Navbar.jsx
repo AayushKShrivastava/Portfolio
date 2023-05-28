@@ -33,8 +33,8 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="work" smooth={true} duration={500}>
-                        Work
+                    <Link to="projects" smooth={true} duration={500}>
+                        Projects
                     </Link>
                 </li>
                 <li>
@@ -104,7 +104,7 @@ const Navbar = () => {
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a className='flex justify-between items-center w-full item-gray-300' 
-                        href='https://docs.google.com/document/d/1-NM8exVYbM60nROA4NgyxmtglSNtdShPlyqGFRxKpE0/edit?usp=sharing'>
+                        href='https://drive.google.com/file/d/1SQQZWl7mA8yABiRLeU7qsY8D0cHvTjNv/view'>
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

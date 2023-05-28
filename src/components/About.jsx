@@ -15,7 +15,10 @@ const About = () => {
                     <p>Hi, I'm Aayush, nice to meet you. Please take a look around.</p>
                 </div>
                 <div>
-                    <p>Dedicated to improving skills through hands-on learning and development work. Adept at using C++, HTML5, JavaScript, React, and CSS to produce clean code. Well-organized and collaborative team player with strong communication and analytical abilities.</p>
+                    <p>
+                        Dedicated to improve skills through hands-on learning and development work. Adept at using Ruby, C++, HTML5, 
+                        JavaScript, React, and CSS, with working experience in AWS, MongoDb, Firebase to produce clean code. Well-organized and collaborative team player with strong communication and analytical abilities.
+                    </p>
                 </div>
             </div>
         </div>
