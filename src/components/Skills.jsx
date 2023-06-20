@@ -22,32 +22,32 @@ const Skills = () => {
                     <p className='my-4'>Ruby on Rails</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Html} alt='html' />
-                    <p className='my-4'>HTML</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Sql} alt='sql' />
-                    <p className='my-4'>SQL</p>
+                    <img className='w-20 mx-auto' src={Cpp} alt='cpp' />
+                    <p className='my-4'>C++</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={JavaScript} alt='javascript' />
                     <p className='my-4'>JavaScript</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Sql} alt='sql' />
+                    <p className='my-4'>SQL</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={ReactImg} alt='react' />
                     <p className='my-4'>React</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Cpp} alt='cpp' />
-                    <p className='my-4'>C++</p>
+                    <img className='w-20 mx-auto' src={Nodejs} alt='nodejs' />
+                    <p className='my-4'>Nodejs</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Html} alt='html' />
+                    <p className='my-4'>HTML</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Github} alt='github' />
                     <p className='my-4'>GitHub</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Nodejs} alt='nodejs' />
-                    <p className='my-4'>Nodejs</p>
                 </div>
             </div>
         </div>

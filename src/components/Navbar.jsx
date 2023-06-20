@@ -17,31 +17,42 @@ const Navbar = () => {
         {/*Menu*/}
 
         <ul className='hidden md:flex'>
-                <li>
+            <li>
                 <Link to="home" smooth={true} duration={500}>
                     Home
                 </Link>
-                </li>
-                <li>
-                    <Link to="about" smooth={true} duration={500}>
-                        About
-                    </Link>
-                </li>
-                <li>
-                    <Link to="skills" smooth={true} duration={500}>
-                        Skills
-                    </Link>
-                </li>
-                <li>
-                    <Link to="projects" smooth={true} duration={500}>
-                        Projects
-                    </Link>
-                </li>
-                <li>
-                    <Link to="contact" smooth={true} duration={500}>
-                        Contact
-                    </Link>
-                </li>
+            </li>
+            <li>
+                <Link to="about" smooth={true} duration={500}>
+                    About
+                </Link>
+            </li>
+            <li>
+                <Link to="experience" smooth={true} duration={500}>
+                    Experience
+                </Link>
+            </li>
+            <li>
+                <Link to="skills" smooth={true} duration={500}>
+                    Skills
+                </Link>
+            </li>
+            <li>
+                <Link to="projects" smooth={true} duration={500}>
+                    Projects
+                </Link>
+            </li>
+            <li>
+                <Link to="contact" smooth={true} duration={500}>
+                    Contact
+                </Link>
+            </li>
+            <li>
+                <a className='flex justify-between items-center w-full item-gray-300' 
+                    href='https://drive.google.com/file/d/1SQQZWl7mA8yABiRLeU7qsY8D0cHvTjNv/view?usp=sharing'>
+                    Resume
+                </a>
+            </li>
         </ul>
 
         {/*Hamburger*/}
@@ -69,6 +80,11 @@ const Navbar = () => {
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="experience" smooth={true} duration={500}>
+                    Experience
+                </Link>
+            </li>
+            <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="work" smooth={true} duration={500}>
                     Work
                 </Link>
@@ -78,12 +94,24 @@ const Navbar = () => {
                     Contact
                 </Link>
             </li>
+            <li className='py-6 text-4xl'>
+                <a className='flex justify-between items-center w-full item-gray-300' 
+                    href='https://drive.google.com/file/d/1SQQZWl7mA8yABiRLeU7qsY8D0cHvTjNv/view?usp=sharing'>
+                    Resume <BsFillPersonLinesFill size={30}/>
+                </a>
+            </li>
         </ul>
 
         {/*Social Icons*/}
 
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+                    <a className='flex justify-between items-center w-full item-gray-300' 
+                        href='https://drive.google.com/file/d/1SQQZWl7mA8yABiRLeU7qsY8D0cHvTjNv/view?usp=sharing'>
+                        Resume <BsFillPersonLinesFill size={30}/>
+                    </a>
+                </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                     <a className='flex justify-between items-center w-full item-gray-300' 
                         href='https://www.linkedin.com/in/aayush-kumar-shrivastava-920450193/'>
@@ -101,12 +129,6 @@ const Navbar = () => {
                         className='flex justify-between items-center w-full item-gray-300'>
                         Email <HiOutlineMail size={30}/>
                     </Link>
-                </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a className='flex justify-between items-center w-full item-gray-300' 
-                        href='https://drive.google.com/file/d/1SQQZWl7mA8yABiRLeU7qsY8D0cHvTjNv/view'>
-                        Resume <BsFillPersonLinesFill size={30}/>
-                    </a>
                 </li>
             </ul>
         </div>

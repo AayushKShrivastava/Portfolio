@@ -16,8 +16,9 @@ const About = () => {
                 </div>
                 <div>
                     <p>
-                        Dedicated to improve skills through hands-on learning and development work. Adept at using Ruby, C++, HTML5, 
-                        JavaScript, React, and CSS, with working experience in AWS, MongoDb, Firebase to produce clean code. Well-organized and collaborative team player with strong communication and analytical abilities.
+                        Dedicated to create impact with software development work and problem solving attitude. Adept at using Ruby, C++, SQL, JavaScript, React, HTML5, and CSS, with upright command on Data Structures and Algorithms to produce
+                        clean, and efficient code. Well-organized and collaborative team player with strong communication, analytical, and
+                        learning abilities. 
                     </p>
                 </div>
             </div>
