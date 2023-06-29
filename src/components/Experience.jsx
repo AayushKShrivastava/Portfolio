@@ -23,20 +23,27 @@ const Experience = () => {
                     </div>
                     <div>
                         <ul className='list-disc pl-4'>
-                            <li>
-                                Saved thousands of dollars by eliminating single point of failure, while ensuring continuation of services
+                            <li className='mb-4'>
+                                Saved the organization from an annual expense of over $8000 by eliminating single points of failure while ensuring the
+continuation of video hosting services for the video courses registered by over 50,000 users
                             </li>
-                            <li>
-                                Brought the All Tools page to life, along with an intuitive platform for its management by the admins
+                            <li className='mb-4'>
+                                Successfully built the All Tools page for the platform with over 2M monthly active users, along with an intuitive
+platform for its management by the admins
                             </li>
-                            <li>
-                                Increased efficiency of content development process with in-house text editor
+                            <li className='mb-4'>
+                                Increased the efficiency of the articles development process for the product with over 6,000 articles on the web by
+building an in-house text editor, facilitating inline commenting feature for quick resolution of content collaborators’
+queries
                             </li>
-                            <li>
-                                Improved search engine ranking by automating the creation of website sitemap
+                            <li className='mb-4'>
+                                Boosted the code coverage of more than 10,000 lined codebase by 15% to 85% with effective unit tests
                             </li>
-                            <li>
-                                Tech stack used - Ruby on Rails, MySQL, Rspec, React, AWS
+                            <li className='mb-4'>
+                                 Improved search engine ranking by automating the creation of website sitemap
+                            </li>
+                            <li className='mb-4'>
+                                Mentored a backend-developer intern in the team
                             </li>
                         </ul>
                     </div>
